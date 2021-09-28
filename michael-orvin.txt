@@ -1,0 +1,86 @@
+1. What is Semantic HTML? Markup that produces meaning to the webpage.
+    2. What is HTML used for? It is used for creating we pages and tell the browser how to display them.
+    3. What is an attribute and where do we put it? Additional characteristics, they should always be in "".
+    4. What is the h1 tag used for? How many times should I use it on a page? The most important title heading. It should only be used once. 
+
+    5. Name two tags that have required attributes href, and src attribute of img.
+
+    6. What do we put in the head of our HTML document? Metadata about the document
+
+    7. What is an id? Identifier, which must be unique to the document.
+
+    8. What elements can I add an id to? It must be unique to the document. Multiple elements cannot have the same ID value on the same page.
+
+    9. How many times can I use the same id on a page? Once
+
+    10. What is a class? The class is an attribute which specifies one or more class names for an HTML element.
+
+    11. What elements can I add a class to? The class attribute can be used on any HTML element.
+
+    12. How many times can I use the same class on a page? Infinite
+
+    13. How do I get my link to open in a new tab? Target _blank
+
+    14. What is the alt attribute in the image tag used for? Description of the image. 
+
+    15. How do I reference an id? Write a hash character (#), followed by an id name.
+
+    16. What is the difference between a section and a div? <div> has a stylistic purpose <section> has specific section.
+
+    17. What is CSS used for? It is for stylizing the HTML
+
+    18. How to we select an element? Example - every h2 on the page You would use h1{}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one The only difference between them is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements. An example of this is are Barcodes and Serial Numbers. Barcodes can be on multiple products that are the same, and Serial numbers are specific to that individual item.
+
+    20. How do we select classes in CSS? .class
+
+    21. How do we select a p element with a single class of “human””? p.human{}
+
+    22. What is a parent child selector? When would this be useful? A parent usually contains an element, with the element inside being its child or children. It helpful in matching direct children of other elements. 
+
+    23. How do you select all links within a div with the class of sidebar? :any-link pseudo-class
+
+    24. What is a pseudo selector? A pseudo-class is a selector that assists in the selection of something that cannot be expressed by a simple selector
+
+    25. What do we use the change the spacing between lines? Line-height
+
+    26. What do we use to change the spacing between letters? Word-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: capitalize;	text-transform: uppercase;	text-transform: lowercase;
+
+    28. How do I add a 1px border around my div that is dotted and black? div { border: dotted 1px black; }
+
+
+    29. How do I select everything on the page? Command A
+
+    30. How do I write a comment in CSS? /**/
+
+    31. How do I find out what file I am in, when I am using the command line? Pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? Ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Rm command. Make sure you know what file and where it is located before doing it.
+
+    34. Why should I use version control? Its a great way to keep track of changes.
+
+    35. How often should I commit to github? As often as possible.
+
+    36. What is the command we would use to push our repo up to github? git push
+
+    37. Walk me through Lambda's git flow. Fork the repo, clone your repo, git clone on terminal, cd new repo, create a branch, open up project, work on project, add commit and push, create pull request, click on the button that says compare and pull request, choose your repository, Make sure you are comparing 'master' or 'main' to your branch, submit the url for your pull request in Canvas, 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Inline elements occupy only sufficient width required.	 Block Elements occupy the full width irrespective of their sufficiency.
+
+    2. What happens when an element is positioned absolutely? it sits on its own layer separate from everything else.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Flexbox
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by 
+default and 1 element that is display inline-block by default?
+ 
+
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? Give them a min and a max width. 
